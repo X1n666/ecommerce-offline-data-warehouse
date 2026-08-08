@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ============ 大数据练习产物 ============
+# 模拟数据 / 日志（生成器输出，不入库）
+data/
+logs/
+*.log
+*.pid
+# 本地产物
+out/
+dist-data/
+airflow_home/
+.env.local
